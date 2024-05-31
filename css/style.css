@@ -1,0 +1,58 @@
+@import "./reset.css";
+
+
+.header{
+    background-image: url("../img/fone.jpg");
+    max-width: 1440px;
+    max-height: 800px;
+    margin: 0 auto;
+}
+.header__info{
+    max-width: 1100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.header__info_title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header__info_title_label{
+    height: 35px;
+    width: 72px;
+}
+.header__info_title_name{
+    color:#E5E5E6;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header__info_title_info{
+    color:#909195;
+    font-family: Gilroy;
+    font-size: 9px;
+    font-weight: 400;
+}
+.header__info_rating{
+    display: flex;
+    gap: 10px;
+}
+.header__info_rating_stars{
+    display: flex;
+    gap: 5px;
+}
+.header__info_rating_text{
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
+.header__info_rating_text span{
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
