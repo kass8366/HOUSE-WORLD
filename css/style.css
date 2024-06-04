@@ -1,246 +1,299 @@
 @import "./reset.css";
 
-
-.header{
-    background-image: url("../img/fone.jpg");
-    max-width: 1440px;
-    max-height: 800px;
-    margin: 0 auto;
+body{
+    background: #F5F6FA;
 }
-.header__info{
-    max-width: 1100px;
-    min-height: 100px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-.header__info_title{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.header__info_title_label{
-    height: 35px;
-    width: 72px;
-}
-.header__info_title_name{
-    color:#E5E5E6;
+h2 {
     font-family: Gilroy;
-    font-size: 16px;
-    font-weight: 500;
-}
-.header__info_title_info{
-    color:#909195;
-    font-family: Gilroy;
-    font-size: 9px;
-    font-weight: 400;
-}
-.header__info_rating{
-    display: flex;
-    gap: 10px;
-}
-.header__info_rating_state{
-    font-family: Gilroy;
-    font-size: 20px;
-    font-weight: 600;
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: -43px;
-}
-.header__info_rating_right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-.header__info_rating_stars{
-    display: flex;
-    gap: 5px;
-}
-.header__info_rating_text{
-    font-family: Gilroy;
-    font-size: 12px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-top: 6px;
-}
-.header__info_rating_text span{
-    font-family: Gilroy;
-    font-size: 12px;
-    font-weight: 400;
-    color: #FFFFFF;
-}
-.header__info_calculator{
-    display: flex;
-    justify-content: end;
-    flex-direction: column;
-    gap: 13px;
-}
-.header__info_calculator_btn{
-    width: 237px;
-    height: 45px;
-    border-radius: 4px;
-    background-color: #84B73D;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    cursor: pointer;
-}
-.header__info_calculator_btn_text{
-    font-family: Gilroy;
-    font-size: 12px;
-    font-weight: 600;
-    color: #FFFFFF;
-}
-.header__info_calculator_email{
-    display: flex;
-    gap: 10px;
-    justify-content: end;
-}
-.header__info_calculator_email_img{
-    width: 10px;
-    height: 7px;
-    cursor: pointer;
-}
-.header__info_calculator_email_address{
-    font-family: Gilroy;
-    font-size: 11px;
-    font-weight: 600;
-    color: #96989F;
-    cursor: pointer;
-}
-.header__info_chat{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
-}
-.header__info_chat_img{
-    width: 38px;
-    height: 38px;
-    cursor: pointer;
-}
-.header__info_chat_text{
-    font-family: Gilroy;
-    font-size: 10px;
-    font-weight: 400;
-    color:#D2D3D6;
-    cursor: pointer;
-}
-.header__info_phone{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-.header__info_phone_text{
-    font-family: Gilroy;
-    font-size: 10px;
-    font-weight: 400;
-    color: #D2D3D6;
-}
-.header__info_phone_number{
-    font-family: Gilroy;
-    font-size: 16px;
-    font-weight: 600;
-    color: #FFFFFF;
-}
-.header__info_phone_feedback{
-    font-family: Gilroy;
-    font-size: 12px;
-    font-weight: 600;
-    color: #87BF3C;
-    cursor: pointer;
-}
-.header__navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
-    min-height: 73px;
-    margin: 0 auto;
-    font-family: Gilroy;
-    font-size: 16px;
-    font-weight: 500;
-    color: #FBFFFF;
-}
-.header__navbar_heart{
-    width: 16px;
-    height: 13px;
-    margin-right: 6px;
-}
-.header__navbar_search{
-    width: 13px;
-    height: 13px;
-    margin-right: 6px;
-}
-.header__section3{
-    max-width: 1100px;
-    min-height: 379px;
-    margin: 0 auto;
-}
-.header__section3_title{
-    font-family: Gilroy;
-    font-size: 48px;
+    font-size: 47px;
     font-weight: 700;
-    color: #FFFFFF;
-    padding-top: 63px;
+    color: #2D2D2F;
 }
-.header__section3_title span{
+h3 {
     font-family: Gilroy;
-    font-size: 48px;
-    font-weight: 400;
-    color: #FFFFFF;
-}
-.header__section3_text{
-    font-family: Gilroy;
-    font-size: 20px;
-    font-weight: 400;
-    color: #FFFFFF;
-    margin-top: 16px;
-}
-.header__section3_text span{
-    font-family: Gilroy;
-    font-size: 20px;
-    font-weight: 400;
-    color: #FFFFFF;
-}
-.header__section3_btn{
-    width: 285px;
-    height: 60px;
-    border-radius: 4px;
-    background: #FEAA01;
-    font-family: Gilroy;
-    font-size: 16px;
+    font-size: 36px;
     font-weight: 700;
-    color: #FBFFFF;
-    margin-top: 42px;
-    cursor: pointer;
+    color: #2D2D2F;
 }
-.header__section4{
-    max-width: 1100px;
-    min-height: 240px;
-    margin: 0 auto;
-    display: flex;
-    gap:70px;
-}
-.header__section4_img{
-    padding-top: 74px;
-    width: 31px;
-    height: 31px;
-}
-.header__section4_text{
+h3 span {
     font-family: Gilroy;
-    font-size: 12px;
+    font-size: 36px;
     font-weight: 400;
-    color: #FFFFFF
 }
-.header_derevo{
-    position: relative;
-    left: 0px;
-    top: -600px;
+.header {
+     background-image: url("../img/fone.jpg");
+     max-width: 1440px;
+     max-height: 800px;
+     margin: 0 auto;
+     position: relative;
+}
+.header__info {
+     max-width: 1100px;
+     min-height: 100px;
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+}
+.header__info_title {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+.header__info_title_label {
+     height: 35px;
+     width: 72px;
+}
+.header__info_title_name {
+     color: #e5e5e6;
+     font-family: Gilroy;
+     font-size: 16px;
+     font-weight: 500;
+}
+.header__info_title_info {
+     color: #909195;
+     font-family: Gilroy;
+     font-size: 9px;
+     font-weight: 400;
+}
+.header__info_rating {
+     display: flex;
+     gap: 10px;
+}
+.header__info_rating_state {
+     font-family: Gilroy;
+     font-size: 20px;
+     font-weight: 600;
+     color: #ffffff;
+     text-align: center;
+     margin-top: -43px;
+}
+.header__info_rating_right {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.header__info_rating_stars {
+     display: flex;
+     gap: 5px;
+}
+.header__info_rating_text {
+     font-family: Gilroy;
+     font-size: 12px;
+     font-weight: 600;
+     color: #ffffff;
+     margin-top: 6px;
+}
+.header__info_rating_text span {
+     font-family: Gilroy;
+     font-size: 12px;
+     font-weight: 400;
+     color: #ffffff;
+}
+.header__info_calculator {
+     display: flex;
+     justify-content: end;
+     flex-direction: column;
+     gap: 13px;
+}
+.header__info_calculator_btn {
+     width: 237px;
+     height: 45px;
+     border-radius: 4px;
+     background-color: #84b73d;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     cursor: pointer;
+     font-family: Gilroy;
+     font-size: 12px;
+     font-weight: 600;
+     color: #ffffff;
+}
+.header__info_calculator_email {
+     display: flex;
+     gap: 10px;
+     justify-content: end;
+}
+.header__info_calculator_email_img {
+     width: 10px;
+     height: 7px;
+     cursor: pointer;
+}
+.header__info_calculator_email_address {
+     font-family: Gilroy;
+     font-size: 11px;
+     font-weight: 600;
+     color: #96989f;
+     cursor: pointer;
+}
+.header__info_chat {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 3px;
+}
+.header__info_chat_img {
+     width: 38px;
+     height: 38px;
+     cursor: pointer;
+}
+.header__info_chat_text {
+     font-family: Gilroy;
+     font-size: 10px;
+     font-weight: 400;
+     color: #d2d3d6;
+     cursor: pointer;
+}
+.header__info_phone {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+}
+.header__info_phone_text {
+     font-family: Gilroy;
+     font-size: 10px;
+     font-weight: 400;
+     color: #d2d3d6;
+}
+.header__info_phone_number {
+     font-family: Gilroy;
+     font-size: 16px;
+     font-weight: 600;
+     color: #ffffff;
+}
+.header__info_phone_feedback {
+     font-family: Gilroy;
+     font-size: 12px;
+     font-weight: 600;
+     color: #87bf3c;
+     cursor: pointer;
+}
+.header__navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 1100px;
+     min-height: 73px;
+     margin: 0 auto;
+     font-family: Gilroy;
+     font-size: 16px;
+     font-weight: 500;
+     color: #fbffff;
+}
+.header__navbar_heart {
+     width: 16px;
+     height: 13px;
+     margin-right: 6px;
+}
+.header__navbar_search {
+     width: 13px;
+     height: 13px;
+     margin-right: 6px;
+}
+.header__section3 {
+     max-width: 1100px;
+     min-height: 379px;
+     margin: 0 auto;
+}
+.header__section3_title {
+     font-family: Gilroy;
+     font-size: 48px;
+     font-weight: 700;
+     color: #ffffff;
+     padding-top: 63px;
+}
+.header__section3_title span {
+     font-family: Gilroy;
+     font-size: 48px;
+     font-weight: 400;
+     color: #ffffff;
+}
+.header__section3_text {
+     font-family: Gilroy;
+     font-size: 20px;
+     font-weight: 400;
+     color: #ffffff;
+     margin-top: 16px;
+}
+.header__section3_text span {
+     font-family: Gilroy;
+     font-size: 20px;
+     font-weight: 400;
+     color: #ffffff;
+}
+.header__section3_btn {
+     width: 285px;
+     height: 60px;
+     border-radius: 4px;
+     background: #feaa01;
+     font-family: Gilroy;
+     font-size: 16px;
+     font-weight: 700;
+     color: #fbffff;
+     margin-top: 42px;
+     cursor: pointer;
+}
+.header__section4 {
+     max-width: 1100px;
+     min-height: 240px;
+     margin: 0 auto;
+     display: flex;
+     gap: 70px;
+}
+.header__section4_img {
+     padding-top: 74px;
+     width: 31px;
+     height: 31px;
+}
+.header__section4_text {
+     font-family: Gilroy;
+     font-size: 12px;
+     font-weight: 400;
+     color: #ffffff;
+}
+.header_derevo {
+     position: absolute;
+     left: 0px;
+     top: 200px;
+}
+.house_calculation { 
+    max-width: 1105px;
+    min-height: 701px;
+    margin: 0px auto;
+    background-color:#ffffff;
+    border-radius: 5px 5px 100px 5px;
+    display: flex;
+}
+.house_calculation_left {
+    max-width: 760px;
+}
+.house_calculation_left_progress_scale {
+    width: 544px;
+    height: 13px;
+    border-radius: 6px;
+    background-color: #CACACA;
+}
+.house_calculation_left_questionnaire {
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 600;
+    color: #262425;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 9px;
+}
+.house_calculation_left_questionnaire span {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 300;
+    color: #716A6B;
+    background-color: #84b73d;
+    border-radius: 3px;
+    padding: 2px;
 }
