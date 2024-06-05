@@ -271,12 +271,18 @@ h3 span {
 }
 .house_calculation_left {
     max-width: 760px;
+    margin-left: 105px;
+    margin-top: 63px;
+}
+.house_calculation_left_title {
+    text-align: center;
 }
 .house_calculation_left_progress_scale {
     width: 544px;
     height: 13px;
     border-radius: 6px;
     background-color: #CACACA;
+    margin-top: 40px;
 }
 .house_calculation_left_questionnaire {
     font-family: Gilroy;
@@ -287,6 +293,7 @@ h3 span {
     justify-content: center;
     align-items:center;
     gap: 9px;
+    margin-top: 35px;
 }
 .house_calculation_left_questionnaire span {
     font-family: Gilroy;
@@ -296,4 +303,37 @@ h3 span {
     background-color: #84b73d;
     border-radius: 3px;
     padding: 2px;
+}
+.house_calculation_left_confirm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 430px;
+}
+.house_calculation_left_confirm_info {
+    display: flex;
+    gap: 10px;
+}
+.house_calculation_left_confirm_info_img {
+    height: 14px;
+    width: 19px;
+}
+.house_calculation_left_confirm_info_text {
+    font-family: Gilroy;
+    font-size: 11px;
+    font-weight: 600;
+    color: #777779;
+}
+.house_calculation_left_confirm_info_text span {
+    font-weight: 400;
+}
+.house_calculation_left_confirm_button {
+    width: 139px;
+    height: 47px;
+    border-radius: 2px;
+    background-color: #FEAA01;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FDFDFA;
+    cursor: pointer;
 }
