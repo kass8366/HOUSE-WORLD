@@ -1,13 +1,17 @@
 @import "./reset.css";
 
 body{
-    background: #EFF3F7;
+    background: #F5F6FA;
 }
 h2 {
     font-family: Gilroy;
     font-size: 47px;
     font-weight: 700;
     color: #2D2D2F;
+    text-align: center;
+}
+h2 span {
+     font-weight: 400;
 }
 h3 {
     font-family: Gilroy;
@@ -263,7 +267,7 @@ h3 span {
 }
 .house_calculation { 
     max-width: 1105px;
-    min-height: 701px;
+    min-height: 700px;
     margin: 0px auto;
     background-color:#ffffff;
     border-radius: 5px 5px 100px 5px;
@@ -352,13 +356,107 @@ h3 span {
      margin-top: 50px;
      display: flex;
      flex-direction: column;
-}
-.house_calculation_right_rating {
-     height: 75px;
-     width: 47px;
+     align-items:center;
 }
 .house_calculation_right_man {
-     height: 269px;
+     height: 250px;
      width: 250px;
-     margin-top: -50px;
+}
+.house_calculation_right_name {
+     font-family: Gilroy;
+     font-size: 25px;
+     font-weight: 600;
+     color: #272627;
+}
+.house_calculation_right_post {
+     font-family: Gilroy;
+     font-size: 14px;
+     font-weight: 400;
+     color: #A09EA1;
+     margin-top: 16px;
+}
+.house_calculation_right_info {
+     font-family: Gilroy;
+     font-size: 16px;
+     font-weight: 400;
+     color:#4B4747;
+     margin-top: 24px;
+}
+.house_calculation_right_info span {
+     font-weight: 600;
+}
+.house_calculation_right_containers {
+     display: flex;
+     flex-direction: column;
+     gap: 12px;
+     margin-top: 20px;
+}
+.house_calculation_right_containers_cont1 {
+     width: 250px;
+     height: 67px;
+     border-radius: 33px 0px 33px 0px;
+     background-color: #FFFFFF;
+}
+.house_calculation_right_containers_cont2 {
+     width: 250px;
+     height: 67px;
+     border-radius: 33px 0px 33px 0px;
+     background-image: url('../img/background_image_cont2.png');
+}
+.house_calculation_right_containers_cont3 {
+     width: 250px;
+     height: 67px;
+     border-radius: 33px 0px 33px 0px;
+     background-image: url('../img/background_image_cont3.png');
+}
+.house_price {
+     max-width: 1105px;
+     min-height: 820px;
+     margin: 85px auto 0 auto;
+     background-color:#F5F6FA;
+}
+.house_price_container {
+     display: flex;
+     gap: 31px;
+     margin-top: 47px;
+}
+.house_price_container_column {
+     display: flex;
+     flex-direction: column;
+     gap: 29px;
+}
+.house_price_container_column_frhouse {
+     width: 348px;
+     height: 351px;
+     background-image: url('../img/section3_frhouse_img.png');
+}
+.house_price_container_column_trbaths {
+     width: 348px;
+     height: 161px;
+     background-image: url('../img/section3_trbaths_img.png');
+}
+.house_price_container_column_timhouse {
+     width: 348px;
+     height: 161px;
+     background-image: url('../img/section3_timhouse_img.png');
+}
+.house_price_container_column_timbaths {
+     width: 348px;
+     height: 161px;
+     background-image: url('../img/section3_timbaths_img.png');
+}
+.house_price_container_column_logs {
+     width: 348px;
+     height: 161px;
+     background-image: url('../img/section3_logs_img.png');
+}
+.house_price_container_column_logs2{
+     width: 348px;
+     height: 161px;
+     background-image: url('../img/section3_logs2_img.png');
+}
+.house_price_container_column_frbaths {
+     width: 348px;
+     height: 351px;
+     background-image: url('../img/section3_frhouse_img.png');
 }
