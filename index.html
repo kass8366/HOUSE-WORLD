@@ -105,67 +105,186 @@
         <img class="header_derevo" src="./img/Header_derevo.png" alt="header_derevo">
     </header>
     <section class="house_calculation">
-        <div class="house_calculation_left">
-            <h3 class="house_calculation_left_title">Рассчитайте предварительную
+        <div class="house_calculation__left">
+            <h3 class="house_calculation__left_title">Рассчитайте предварительную
                 <br>стоимость 
                 <span>дома за 1 минуту</span>
             </h3>
-            <div class="house_calculation_left_progress_scale"></div>
-            <div class="house_calculation_left_questionnaire">
-                <p class="house_calculation_left_questionnaire_text">
+            <div class="house_calculation__left_progress_scale">
+                <div class="house_calculation__left_progress_scale_fill"></div>
+            </div>
+            <div class="house_calculation__left_questionnaire">
+                <p class="house_calculation__left_questionnaire_text">
                     <span>01.</span>
                     Что будем строить?
                 </p>
+                <div class="house_calculation__left_questionnaire_img">
+                    <div class="house_calculation__left_questionnaire_img_box">
+                        <img src="./img/section2_house.png" alt="house">
+                        <lp for="radio-1">Дом</lp>
+                        <input id="radio-1" type="radio" name="radio" checked>
+                        <label for="radio-1">&#10003;</label>
+                    </div>
+                    <div class="house_calculation__left_questionnaire_img_box">
+                        <img src="./img/section2_baths.png" alt="baths">
+                        <p for="radio-2">Баня</p>
+                        <input id="radio-2" type="radio" name="radio">
+                        <label for="radio-2">&#10003;</label>
+                    </div>
+                </div>
             </div>
-            <div class="house_calculation_left_confirm">
-                <div class="house_calculation_left_confirm_info">
-                    <img class="house_calculation_left_confirm_info_img" src="./img/section2_hand.png" alt="hand">
-                    <p  class="house_calculation_left_confirm_info_text">
+            <div class="house_calculation__left_confirm">
+                <div class="house_calculation__left_confirm_info">
+                    <img class="house_calculation__left_confirm_info_img" src="./img/section2_hand.png" alt="hand">
+                    <p  class="house_calculation__left_confirm_info_text">
                         Нажимайте на вариант ответа
                         <br><span>и переходите к следующему вопросу</span>
                     </p>
                 </div>
-                <button class="house_calculation_left_confirm_button">Далее &#187;</button>
+                <button class="house_calculation__left_confirm_button">Далее &#187;</button>
 
             </div>
         </div>
-        <div class="house_calculation_right">
-            <img class="house_calculation_right_man" src="./img/section2_man.png" alt="rating">
-            <p class="house_calculation_right_name">Михаил Иванов</p>
-            <p class="house_calculation_right_post">Ведущий архитектор</p>
-            <p class="house_calculation_right_info">Ответив на вопросы <span>вы получите:</span></p>
-            <div class="house_calculation_right_containers">
-                <div  class="house_calculation_right_containers_cont1">
-
+        <div class="house_calculation__right">
+            <img class="house_calculation__right_man" src="./img/section2_man.png" alt="rating">
+            <p class="house_calculation__right_name">Михаил Иванов</p>
+            <p class="house_calculation__right_post">Ведущий архитектор</p>
+            <p class="house_calculation__right_info">Ответив на вопросы <span>вы получите:</span></p>
+            <div class="house_calculation__right_containers">
+                <div  class="house_calculation__right_containers_cont1">
+                    <img class="house_calculation__right_containers_cont1_unlock" src="./img/section2_unlock.png" alt="unlock">
+                    <p class="house_calculation__right_containers_cont1_text">Гарантированную
+                        <br><span>скидку</span>
+                    </p>
+                    <p class="house_calculation__right_containers_cont1_percent">1%</p>
                 </div>
-                <div  class="house_calculation_right_containers_cont2">
-                    
+                <div  class="house_calculation__right_containers_cont2">
+                    <img class="house_calculation__right_containers_cont2_lock" src="./img/section2_lock.png" alt="lock">
+                    <p class="house_calculation__right_containers_cont2_text">Ориентировочную
+                        <br><span>стоимость строительства</span>
+                    </p>
                 </div>
-                <div  class="house_calculation_right_containers_cont3">
-                    
+                <div  class="house_calculation__right_containers_cont3">
+                    <img class="house_calculation__right_containers_cont3_lock" src="./img/section2_lock.png" alt="lock">
+                    <p class="house_calculation__right_containers_cont3_text">Точную подборку
+                        <br><span>проектов исходя изваших
+                            <br>ответов
+                        </span>
+                    </p>
                 </div>
             </div>
+        </div>
     </section>
     <section class="house_price">
         <h2>Мы строим деревянные дома и бани 
             <span>с учетом
             <br>всех особенностей Курска</span>
         </h2>
-        <div class="house_price_container">
-            <div class="house_price_container_column">
-                <div class="house_price_container_column_frhouse"></div>
-                <div class="house_price_container_column_trbaths"></div>
+        <div class="house_price__container">
+            <div class="house_price__container_column">
+                <div class="house_price__container_column_frhouse">
+                    <div class="house_price__container_bbox">
+                        <div class="house_price__container_bbox_title">
+                            <h4>Каркасные<br>дома</h4>
+                            <button class="house_price__container_bbox_title_btn">100+ проектов</button>
+                        </div>
+                        <div class="house_price__container_bbox_price">
+                            <p class="house_price__container_bbox_price_text">
+                                от<span> 21 800 </span>руб/м
+                            </p>
+                            <button class="house_price__container_bbox_price_btn">смотреть проекты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="house_price__container_column_trbaths">
+                    <div class="house_price__container_lbox">
+                        <div class="house_price__container_lbox_title">
+                            <h5>Перевозные<br>бани</h5>
+                            <button class="house_price__container_lbox_title_btn">100+ проектов</button>
+                        </div>
+                        <div class="house_price__container_lbox_price">
+                            <button class="house_price__container_lbox_price_btn">смотреть проекты</button>
+                            <p class="house_price__container_lbox_price_text">
+                                от<span> 19 700 </span>руб/м
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-            <div class="house_price_container_column">
-                <div class="house_price_container_column_timhouse"></div>
-                <div class="house_price_container_column_timbaths"></div>
-                <div class="house_price_container_column_logs"></div>
-
+            <div class="house_price__container_column">
+                <div class="house_price__container_column_timhouse">
+                    <div class="house_price__container_lbox">
+                        <div class="house_price__container_lbox_title">
+                            <h5>Дома<br>из бруса</h5>
+                            <button class="house_price__container_lbox_title_btn">100+ проектов</button>
+                        </div>
+                        <div class="house_price__container_lbox_price">
+                            <button class="house_price__container_lbox_price_btn">смотреть проекты</button>
+                            <p class="house_price__container_lbox_price_text">
+                                от<span> 19 700 </span>руб/м
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="house_price__container_column_timbaths">
+                    <div class="house_price__container_lbox">
+                        <div class="house_price__container_lbox_title">
+                            <h5>Бани<br>из бруса</h5>
+                            <button class="house_price__container_lbox_title_btn">100+ проектов</button>
+                        </div>
+                        <div class="house_price__container_lbox_price">
+                            <button class="house_price__container_lbox_price_btn">смотреть проекты</button>
+                            <p class="house_price__container_lbox_price_text">
+                                от<span> 19 700 </span>руб/м
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="house_price__container_column_logs">
+                    <div class="house_price__container_lbox">
+                        <div class="house_price__container_lbox_title">
+                            <h5>Срубы под<br>усадку</h5>
+                            <button class="house_price__container_lbox_title_btn">100+ проектов</button>
+                        </div>
+                        <div class="house_price__container_lbox_price">
+                            <button class="house_price__container_lbox_price_btn">смотреть проекты</button>
+                            <p class="house_price__container_lbox_price_text">
+                                от<span> 19 700 </span>руб/м
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="house_price_container_column">
-                <div class="house_price_container_column_logs2"></div>
-                <div class="house_price_container_column_frbaths"></div>
+            <div class="house_price__container_column">
+                <div class="house_price__container_column_logs2">
+                    <div class="house_price__container_lbox">
+                        <div class="house_price__container_lbox_title">
+                            <h5>Срубы под<br>усадку</h5>
+                            <button class="house_price__container_lbox_title_btn">100+ проектов</button>
+                        </div>
+                        <div class="house_price__container_lbox_price">
+                            <button class="house_price__container_lbox_price_btn">смотреть проекты</button>
+                            <p class="house_price__container_lbox_price_text">
+                                от<span> 19 700 </span>руб/м
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="house_price__container_column_frbaths">
+                    <div class="house_price__container_bbox">
+                        <div class="house_price__container_bbox_title">
+                            <h4>Каркасные<br>бани</h4>
+                            <button class="house_price__container_bbox_title_btn">100+ проектов</button>
+                        </div>
+                        <div class="house_price__container_bbox_price">
+                            <p class="house_price__container_bbox_price_text">
+                                от<span> 20 800 </span>руб/м
+                            </p>
+                            <button class="house_price__container_bbox_price_btn">смотреть проекты</button>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
