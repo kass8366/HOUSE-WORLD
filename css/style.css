@@ -775,3 +775,135 @@ h5 {
      color:#FCFCFE;
      cursor: pointer;
 }
+
+.house_project {
+     min-height: 1321px;
+     max-width: 1105px;
+     margin: 0 auto;
+     background-color: #f5f6fa;
+}
+
+.house_project__menu {
+     min-height: 100px;
+     width: 100%;
+     display: flex;
+     align-items:center;
+}
+
+.house_project__navbar {
+     width: 100%;
+     display: flex;
+     font-family: Gilroy;
+     font-size: 13px;
+     font-weight: 400;
+     color: #5C5F66;
+     justify-content: space-around;
+     align-items:center;
+}
+
+.house_project__navbar input {
+     display: none;
+}
+
+
+.house_project__navbar label {
+     border-radius: 4px;
+     padding: 5px 8px;
+     background: #EFEFEF;
+     cursor: pointer;
+}
+
+/* Checked */
+.house_project__navbar input[type=radio]:checked + label {
+	background: #73B918;
+     color: #FEFCFD;
+}
+
+.house_project__navbar_link {
+     width: 200px;
+     font-family: Gilroy;
+     font-size: 14px;
+     font-weight: 600;
+     color: #F7D047;
+     text-align: center;
+     cursor: pointer;
+     text-decoration: underline;
+}
+
+.house_project__catalog_box {
+     width: 350px;
+     height: 505px;
+     border-radius: 14px;
+     background-color: #ffffff;
+ }
+ 
+ .house_project__catalog_box_img {
+     width: 100%;
+ }
+ 
+ .house_project__catalog_box_info{
+     padding: 28px 28px 0px 31px;
+ }
+ 
+ .house_project__catalog_box h4 {
+     color: #000000;
+ }
+ 
+ .house_project__catalog_box_info_params {
+     display: flex;
+     gap: 44px;
+     margin-top: 16px;
+     font-family: Gilroy;
+     font-size: 13px;
+     font-weight: 400;
+     color: #7A7D81;
+ }
+ 
+ .house_project__catalog_box_info_params span {
+     font-weight: 600;
+ }
+
+ .house_project__catalog_box_info_params_column {
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+ }
+ 
+ .house_project__catalog_box_info_typeHouse {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: center;
+     font-family: Gilroy;
+     font-size: 13px;
+     font-weight: 400;
+     color: #7A7D81;
+     margin-top: 30px;
+ }
+
+ .house_project__catalog_box_info_typeHouse span {
+     font-weight: 600;
+     color: #5C5F66;
+ }
+
+ .house_project__catalog_box_info_price {
+     display: flex;
+     justify-content: space-between;
+     font-family: Gilroy;
+     font-size: 13px;
+     font-weight: 400;
+     color: #7A7D81;
+     flex-direction: center;
+     align-items:end;
+     margin-top: 7px;
+ }
+
+ .house_project__catalog_box_info_price span {
+     font-weight: 600;
+     color: #5C5F66;
+ }
+ 
+ .house_project__catalog_box_info_price d {
+     font-size: 32px;
+     font-weight: 700;
+     color: #73B918;
+ }
