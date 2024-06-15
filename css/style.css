@@ -830,6 +830,12 @@ h5 {
      text-decoration: underline;
 }
 
+.house_project__catalog {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
 .house_project__catalog_box {
      width: 350px;
      height: 505px;
@@ -902,8 +908,35 @@ h5 {
      color: #5C5F66;
  }
  
- .house_project__catalog_box_info_price d {
+ .house_project__catalog_box_info_price strong {
      font-size: 32px;
      font-weight: 700;
      color: #73B918;
+ }
+
+ .house_project__catalog_box_info_button {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 24px;
+     font-family: Gilroy;
+     font-size: 9px;
+     font-weight: 400;
+     color: #B8B8BA;
+ }
+
+ .house_project__catalog_box_info_button img {
+     margin-left: 10px;
+ }
+
+ .house_project__catalog_box_info_button_btn {
+     width: 182px;
+     height: 34px;
+     border-radius: 5px;
+     background-color: #FEAA01;
+     font-family: Gilroy;
+     font-size: 12px;
+     font-weight: 700;
+     color: #FCFCFE;
+     cursor: pointer;
  }
