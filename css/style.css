@@ -44,7 +44,7 @@ h5 {
 .header {
   background-image: url("../img/fone.jpg");
   max-width: 1440px;
-  max-height: 800px;
+  min-height: 800px;
   margin: 0 auto;
   position: relative;
 }
@@ -194,6 +194,9 @@ h5 {
   color: #87bf3c;
   cursor: pointer;
 }
+.header__burger {
+  display: none;
+}
 .header__navbar {
   display: flex;
   justify-content: space-between;
@@ -303,7 +306,7 @@ h5 {
   text-align: center;
 }
 .house_calculation__left_progress_scale {
-  width: 544px;
+  width: 100%;
   height: 13px;
   border-radius: 6px;
   background-color: #cacaca;
@@ -372,6 +375,9 @@ h5 {
 }
 .house_calculation__left_questionnaire_img_box input {
   display: none;
+}
+.house_calculation__left_questionnaire_img_box img {
+  width: 100%;
 }
 .house_calculation__left_confirm {
   display: flex;
@@ -526,13 +532,15 @@ h5 {
 }
 
 .house_price {
-  max-width: 1105px;
+  max-width: 1110px;
   min-height: 820px;
   margin: 85px auto 0 auto;
   background-color: #f5f6fa;
 }
 .house_price__container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 31px;
   margin-top: 47px;
 }
@@ -716,7 +724,8 @@ h5 {
 .house_project__catalog {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 27px;
 }
 .house_project__catalog_box {
   width: 350px;
@@ -807,4 +816,137 @@ h5 {
 }
 .house_project__catalog_box h4 {
   color: #000000;
+}
+
+@media (max-width: 1350px) {
+  .header_derevo {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .header, .house_calculation, .house_price, .house_project {
+    padding: 0 20px 0 20px;
+  }
+  .header__info_rating {
+    display: none;
+  }
+  .house_project__menu {
+    display: none;
+  }
+  h2 {
+    margin-top: 20px;
+  }
+  .house_calculation {
+    justify-content: center;
+  }
+  .house_calculation__right {
+    display: none;
+  }
+  .house_project__catalog {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 900px) {
+  .header__info_calculator, .header__info_chat, .header__navbar_heart, .header__navbar_search {
+    display: none;
+  }
+  .header__navbar {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .header__section4 {
+    gap: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .house_calculation__left_questionnaire {
+    height: 55%;
+  }
+}
+@media (max-width: 750px) {
+  .house_calculation__left_questionnaire {
+    height: 50%;
+  }
+}
+@media (max-width: 650px) {
+  h2, h2 span {
+    font-size: 36px;
+  }
+  h3, h3 span {
+    font-size: 30px;
+  }
+  .header {
+    padding-bottom: 20px;
+    background-size: cover;
+  }
+  .header__info {
+    align-items: center;
+    gap: 20px;
+  }
+  .header__info_phone {
+    display: none;
+  }
+  .header__burger {
+    display: block;
+    position: relative;
+    background: transparent;
+    width: 40px;
+    height: 26px;
+    cursor: pointer;
+  }
+  .header__burger::before,
+  .header__burger::after {
+    content: "";
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    background: #fff;
+  }
+  .header__burger::before {
+    top: 0;
+    box-shadow: 0 11px 0 #fff;
+  }
+  .header__burger::after {
+    bottom: 0;
+  }
+  .header__navbar {
+    display: none;
+  }
+  .header__section3_title {
+    padding-top: 20px;
+    font-size: 36px;
+  }
+  .header__section3_title span {
+    font-size: 36px;
+  }
+  .header__section3_text {
+    font-size: 16px;
+  }
+  .header__section3_text span {
+    font-size: 16px;
+  }
+  .header__section3_btn {
+    width: 250px;
+  }
+  .header__section4 {
+    flex-wrap: wrap;
+  }
+  .header__section4_img {
+    padding-top: 20px;
+  }
+  .house_calculation__left_questionnaire {
+    height: 45%;
+  }
+  .house_calculation {
+    top: 20px;
+  }
+  .house_calculation__left_questionnaire_text {
+    font-size: 16px;
+  }
+  .house_calculation__left_confirm {
+    gap: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
